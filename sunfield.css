@@ -1,0 +1,121 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+:root{
+    --bg-secondary: #eaeaea;
+    --txt-primary: #dc7805;
+    --txt-secondary:#222222;
+    --icons-bg-primay: tomato;
+    --icons-bg-secondary: #0d0f0f;
+}
+
+.sake{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.sushi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nabe{
+    width: 40%;
+    border: 1px solid white;
+    background-image: url(sun.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--txt-primary);
+    padding: 32px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25% ;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.nabe1{
+    width: 40%;
+    border: 1px solid white;
+    background-image: url(sun1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--txt-primary);
+    padding: 32px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25% ;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.nabe2{
+    width: 40%;
+    border: 1px solid white;
+    background-image: url(sun2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--txt-primary);
+    padding: 32px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25% ;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.nabe3{
+    width: 40%;
+    border: 1px solid white;
+    background-image: url(sun3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--txt-primary);
+    padding: 32px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25% ;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ayakashi{
+    font-size: 2em;
+    font-family: "Handjet", sans-serif;
+}
+
+.icons{
+    margin-top: 8px;
+    font-size: 24px;
+    color: var(--icons-bg-primay);
+}
+
+.ramen{
+    margin-top: 8px;
+    font-size: 5em;
+}
+
+
+
+@media  screen and (max-width: 476px) {
+    .nabe{
+        width: 95%;
+    }
+    .nabe1{
+        width: 95%;
+    }.nabe2{
+        width: 95%;
+    }.nabe3{
+        width: 95%;
+    }
+    
+}
